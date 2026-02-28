@@ -23,13 +23,13 @@ pip install google-api-python-client psycopg2-binary python-dotenv
 ### 3. Create .env file
 Create a file called .env in the project folder with:
 
-- YOUTUBE_API_KEY=your_youtube_api_key
-- CHANNEL_IDS=UCxxxxxxxx,UCyyyyyyyy
-- DB_HOST=your_database_host
-- DB_PORT=5432
-- DB_NAME=postgres
-- DB_USER=your_db_user
-- DB_PASSWORD=your_db_password
+YOUTUBE_API_KEY=your_youtube_api_key
+CHANNEL_IDS=UCRDDfbYPHX_GUJ4lcQYTc8A,UCQTcNhAZidy1i9wwmdgf2Lw,UCn0XmAUFv6d2tofMFEesSNw,UCOtYyt7W5PmPnwQjWWF_Z-Q
+DB_HOST=aws-1-ap-southeast-1.pooler.supabase.com
+DB_PORT=5432
+DB_NAME=postgres
+DB_USER=postgres.hlepobritnbwzykhauaz
+DB_PASSWORD=your_db_password
 
 ### 4. Create the database table
 Run schema.sql on your PostgreSQL database using pgAdmin 
